@@ -1,40 +1,242 @@
 {
-  "spider": "./spider.jar",
-  "wallpaper": "proxy://do=wallpaper",
-  "logo": "./img/panghu.jpg",
-  "sites": [
-    {
-      "key": "Nostr",
-      "name": "🐟Nostr🐯推荐",
-      "type": 3,
-      "api": "csp_Nostr",
-      "homePage": "https://www.252035.xyz/xs/tvbox/nostr.html"
-    },
-    {
-      "key": "配置中心",
-      "name": "⚙配置🐯中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "弹幕",
-      "name": "⚙弹幕🐯测试",
-      "type": 3,
-      "api": "csp_SecureDanmu",
-      "jar": "./jar/spider_ts.jar",
-      "index": 1,
-      "ext": {
-        "apiUrls": [
-          "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|3弹幕源1",
-          "https://danmu.qianting168.com/456765847636987622146901|3弹幕源2",
-          "https://dm.ljiaovm.com/luosen|3弹幕源3",
+    "spider": "./spider.jar",
+    "wallpaper": "proxy://do=wallpaper",
+    "logo": "./img/panghu.jpg",
+    "sites": [
+        {
+            "key": "Nostr",
+            "name": "🐟Nostr🐯推荐",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://www.252035.xyz/xs/tvbox/nostr.html"
+        },
+        {
+            "key": "配置中心",
+            "name": "⚙配置🐯中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "弹幕",
+            "name": "⚙弹幕🐯测试",
+            "type": 3,
+            "api": "csp_SecureDanmu",
+            "jar": "./jar/spider_ts.jar",
+            "index": 1,
+            "ext": {
+                "apiUrls": [
+                    "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|3弹幕源1",
+                    "https://danmu.qianting168.com/456765847636987622146901|3弹幕源2",
+                    "https://dm.ljiaovm.com/luosen|3弹幕源3",
+                    "https://danm.lubao2.de5.net/87654321|3弹幕源4",
+                    "https://justdanmu.irisnb.com/iris-danmu|0弹幕源5"
+                ],
+                "titleMappingsUrl": "./json/"
+            }
+        },
+        {
+            "key": "央视PY",
+            "name": "📺央视🐯PY",
+            "type": 3,
+            "api": "./py/央视影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "电视直播",
+            "name": "📺电视🐯直播",
+            "type": 3,
+            "searchable": 0,
+            "changeable": 0,
+            "api": "./js/直播.js",
+            "ext": "./json/直播.json"
+        },
+        {
+            "key": "本地",
+            "name": "🎞本地🐯视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+        {
+            "key": "豆瓣",
+            "name": "🎞豆瓣🐯首页",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "至臻",
+            "name": "🎞至臻🐯4K",
+            "type": 3,
+            "api": "csp_FishCloud",
+            "jar": "./jar/aidaox.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://mihdr.top",
+                    "https://www.mihdr.top",
+                    "https://www.miqk.cc",
+                    "https://zhizhenpan.com",
+                    "https://zhizhen8.click",
+                    "https://www.zhizhen8.click"
+                ],
+                "classes": [
+                    {
+                        "id": "1",
+                        "name": "电影"
+                    },
+                    {
+                        "id": "2",
+                        "name": "剧集"
+                    },
+                    {
+                        "id": "3",
+                        "name": "动漫"
+                    },
+                    {
+                        "id": "4",
+                        "name": "综艺"
+                    },
+                    {
+                        "id": "5",
+                        "name": "短剧"
+                    },
+                    {
+                        "id": "25",
+                        "name": "臻彩视觉"
+                    },
+                    {
+                        "id": "26",
+                        "name": "高分精选"
+                    }
+                ]
+            },
+            "timeout": 60
+        },
+        {
+            "key": "指南",
+            "name": "🎞指南🐯4K",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "山楂",
+            "name": "🎞山楂🐯4K",
+            "type": 3,
+            "api": "https://dogpan.com/f/vgJxhA/山楂影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0
+        },
+        {
+            "key": "奈飞4K",
+            "name": "🎞奈飞🐯4K",
+            "type": 1,
+            "api": "https://api.wsyzy.net/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "4K电影",
+                "Netflix电影",
+                "Netflix自制剧"
+            ]
+        },
+        {
+            "key": "农民影视",
+            "name": "🎞农民🐯影视",
+            "type": 3,
+            "api": "csp_Wwys",
+            "ext": "https://vip.wwgz.cn:5200"
+        },
+        {
+            "key": "云朵影视",
+            "name": "🎞云朵🐯APP",
+            "type": 3,
+            "api": "csp_App3Q",
+            "ext": {
+                "host": "https://ds3xy2yunsa.xyz",
+                "finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776",
+                "updateId": "175070c3-075c-468b-950a-bf575769f4f1",
+                "deviceBrand": "vivo",
+                "deviceModel": "V2309A",
+                "pkg": "com.tvcloud.io",
+                "sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO",
+                "ver": "1"
+            }
+        },
+        {
+            "key": "聚合短剧",
+            "name": "🎦聚合🐯短剧",
+            "type": 3,
+            "api": "./js/聚合短剧.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "name": "🎦AI🐯短剧",
+            "key": "Ai短剧",
+            "type": 3,
+            "jar": "https://nos.netease.com/ysf/0589efa17c35af5babb01f6fcfc83abc.png;md5;065ee07e71679d9c273e18fab401f0c0",
+            "api": "csp_HgdhAmns",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "https://nos.netease.com/ysf/dac0101040005285380ee886e6e6c660.aowu"
+        },
+        {
+            "key": "哔哩合集",
+            "name": "🎞哔哩🐯合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "n": "哔哩合集",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+            }
+        },
+        {
+            "key": "哔哩视频",
+            "name": "🎞哔哩🐯视频",
+            "type": 3,
+            "api": "csp_BiliYS",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cook          "https://dm.ljiaovm.com/luosen|3弹幕源3",
           "https://danm.lubao2.de5.net/87654321|3弹幕源4",
           "https://justdanmu.irisnb.com/iris-danmu|0弹幕源5"
         ],

@@ -151,19 +151,6 @@
       }
     },
     {
-      "key": "茉莉",
-      "name": "🎞茉莉🐯APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
-        "dataKey": "88689667dce61725",
-        "dataIv": "88689667dce61725"
-      }
-    },
-    {
       "key": "聚合短剧",
       "name": "🎦聚合🐯短剧",
       "type": 3,

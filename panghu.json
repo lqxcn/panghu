@@ -78,7 +78,8 @@
       "key": "至臻",
       "name": "🎞至臻🐯4K",
       "type": 3,
-      "api": "csp_PanWebShare",
+      "api": "csp_FishCloud",
+      "jar": "./jar/aidaox.jar"
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -86,8 +87,41 @@
       "ext": {
         "site": [
           "https://mihdr.top",
+          "https://www.mihdr.top",
           "https://www.miqk.cc",
-          "https://www.mihdr.top"
+          "https://zhizhenpan.com",
+          "https://zhizhen8.click",
+          "https://www.zhizhen8.click"
+        ],
+        "classes": [
+          {
+            "id": "1",
+            "name": "电影"
+          },
+          {
+            "id": "2",
+            "name": "剧集"
+          },
+          {
+            "id": "3",
+            "name": "动漫"
+          },
+          {
+            "id": "4",
+            "name": "综艺"
+          },
+          {
+            "id": "5",
+            "name": "短剧"
+          },
+          {
+            "id": "25",
+            "name": "臻彩视觉"
+          },
+          {
+            "id": "26",
+            "name": "高分精选"
+          }
         ]
       },
       "timeout": 60

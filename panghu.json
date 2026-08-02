@@ -4,6 +4,13 @@
   "logo": "./img/panghu.jpg",
   "sites": [
     {
+      "key": "豆瓣",
+      "name": "🎞豆瓣🐯首页",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
       "key": "Nostr",
       "name": "🐟Nostr🐯推荐",
       "type": 3,
@@ -24,21 +31,20 @@
       }
     },
     {
-      "key": "弹幕",
-      "name": "⚙弹幕🐯测试",
+      "name": "弹幕",
+      "key": "⚙弹幕🐯豆瓣",
       "type": 3,
       "api": "csp_SecureDanmu",
-      "jar": "./jar/spider_ts.jar",
-      "index": 1,
+      "searchable": 1,
+      "jar": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/danmu-spider-native.jar",
       "ext": {
         "apiUrls": [
-          "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|3弹幕源1",
-          "https://danmu.qianting168.com/456765847636987622146901|3弹幕源2",
-          "https://dm.ljiaovm.com/luosen|3弹幕源3",
-          "https://danm.lubao2.de5.net/87654321|3弹幕源4",
-          "https://justdanmu.irisnb.com/iris-danmu|0弹幕源5"
+          "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|公益源",
+          "https://logo.saodu.work:8888/87654321|公益源1",
+          "https://dm.ljiaovm.com/luosen|公益源2"
         ],
-        "titleMappingsUrl": "./json/"
+        "titleMappingsUrl": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/yins.json",
+        "filter": "./lib/douban.json"
       }
     },
     {
@@ -149,6 +155,79 @@
         "sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO",
         "ver": "1"
       }
+    },
+    {
+      "key": "热播影视",
+      "name": "🎞热播🐯APP",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "橘汁",
+      "name": "🎞橘汁🐯 APP",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.lxf.snzlcgtzxyx",
+        "host": "",
+        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+        "version": "3.0.2.1",
+        "decrypt": "1"
+      }
+    },
+    {
+      "key": "云播影视",
+      "name": "🎞云播🐯影视",
+      "type": 3,
+      "api": "csp_Tvyb"
+    },
+    {
+      "key": "瓜子影视",
+      "name": "🎞瓜子🐯影视",
+      "type": 3,
+      "api": "csp_Gz360"
+    },
+    {
+      "key": "飞娱影视",
+      "name": "🎞飞娱🐯影视",
+      "type": 3,
+      "api": "csp_Feiyu"
+    },
+    {
+      "key": "独播影视",
+      "name": "🎞独播🐯影视",
+      "type": 3,
+      "api": "csp_Duboku"
+    },
+    {
+      "key": "厂长影视",
+      "name": "🎞厂长🐯影视",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cz01.vip"
+    },
+    {
+      "key": "金牌影视",
+      "name": "🎞金牌🐯影视",
+      "type": 3,
+      "api": "csp_Jpys",
+      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
     },
     {
       "key": "聚合短剧",

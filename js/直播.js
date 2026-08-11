@@ -1,7 +1,7 @@
 var globalHeaders = [];
 var classes = [];
 var categories = {}; // 修复：正确使用categories存储分类数据
-var picUrl = 'https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/pic/薄荷咖啡.jpg';
+var picUrl = 'https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/img/薄荷咖啡.jpg';
 var webPaths = {};
 var sourceHeaders = {};
 var sourceConfigs = {}; // 修复：统一使用sourceConfigs变量名

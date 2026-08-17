@@ -56,7 +56,7 @@ var rule = {
             d.push({
                 url: id,
                 title: it.name,
-                img: './img/戏曲.jpeg',
+                img: 'https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/img/戏曲.jpeg',
                 desc: it.des,
             })
         })
@@ -82,7 +82,7 @@ var rule = {
             urls.push(it.name + '$' + 'https://zheshiyitaiojialianjie.com?' + it.code);
         })
         VOD = {
-            vod_pic: './img/戏曲.jpeg',
+            vod_pic: 'https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/img/戏曲.jpeg',
             vod_play_from: '多多专线',
             vod_play_url: urls.join('#')
         };
@@ -112,7 +112,7 @@ var rule = {
             d.push({
                 url: id,
                 title: it.name,
-                img: './img/戏曲.jpeg',
+                img: 'https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/img/戏曲.jpeg',
                 desc: it.des,
             })
         })

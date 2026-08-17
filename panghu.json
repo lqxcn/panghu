@@ -1,4 +1,4 @@
- {
+{
   "spider": "./spider.jar",
   "wallpaper": "proxy://do=wallpaper",
   "logo": "./img/panghu.jpg",
@@ -9,13 +9,6 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
-    },
-    {
-      "key": "Nostr",
-      "name": "🐟Nostr🐯推荐",
-      "type": 3,
-      "api": "csp_Nostr",
-      "homePage": "https://www.252035.xyz/xs/tvbox/nostr.html"
     },
     {
       "key": "配置中心",
@@ -67,14 +60,23 @@
       "type": 3,
       "searchable": 0,
       "changeable": 0,
-      "api": "./js/直播.js",
-      "ext": "./json/直播.json"
+      "api": "./js/直播.js"
     },
     {
       "key": "本地",
       "name": "🎞本地🐯视频",
       "type": 3,
       "api": "csp_LocalFile"
+    },
+    {
+      "key": "极影4K",
+      "name": "🎞极影🐯4K",
+      "type": 3,
+      "api": "https://dogpan.com/f/MjZntz/4K免扫码.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
     },
     {
       "key": "至臻",
@@ -133,8 +135,25 @@
       "key": "农民影视",
       "name": "🎞农民🐯影视",
       "type": 3,
-      "api": "csp_Wwys",
-      "ext": "https://vip.wwgz.cn:5200"
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "api": "./py/农民影视.py"
+    },
+    {
+      "key": "6080影视",
+      "name": "🎞6080🐯影视",
+      "type": 3,
+      "api": "./py/6080影视.py"
+    },
+    {
+      "key": "爬虫影视",
+      "name": "🎞爬虫🐯影视",
+      "type": 1,
+      "api": "https://dy.7772888.xyz/api.php/tvbox",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "云朵影视",
@@ -528,7 +547,7 @@
       "key": "聚合采集",
       "name": "🔎聚合🐯采集",
       "type": 3,
-      "api": "./js/drpy2.min.js",
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
       "ext": "./js/采集之王.js?type=url&params=https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/jiaozi/refs/heads/main/json/采集静态.json"
     },
     {
@@ -767,7 +786,7 @@
   "lives": [
     {
       "name": "📺自用🐯",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
     },
     {
       "name": "📺4GTV🐯",
@@ -786,24 +805,20 @@
       "url": "http://45.192.97.170:5211/165037"
     },
     {
-      "name": "📺风云🐯",
-      "url": "http://iptv.4666888.xyz/FYTV.txt"
-    },
-    {
       "name": "📺宫殿TV🐯",
       "url": "https://gongdian.top/tv/iptv"
     },
     {
       "name": "📺华视TV🐯",
       "url": "https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111/refs/heads/main/华视box华视大全swtv"
-    },   
+    },
     {
       "name": "📺易发TV🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
     },
     {
       "name": "📺涛涛TV🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"
     },
     {
       "name": "📺咪咕TV🐯",

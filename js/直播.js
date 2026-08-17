@@ -16,7 +16,7 @@ var LIVS_SOURCES = [
   },
   {
     "name": "📺潇雨TV直播",
-    "url": "https://0701.tv1288.xyz"
+    "url": "http://45.192.97.170:5211/165037"
   },
   {
     "name": "📺日后TV直播",

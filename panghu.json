@@ -524,7 +524,7 @@
       "name": "🎭聚合🐯戏曲",
       "type": 3,
       "api": "./js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/refs/heads/main/js/戏曲大全.js"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/js/戏曲大全.js"
     },
     {
       "key": "哔哩哔哩戏曲",

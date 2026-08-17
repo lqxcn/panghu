@@ -767,23 +767,11 @@
   "lives": [
     {
       "name": "📺自用🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
     },
     {
       "name": "📺4GTV🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/4GTV.m3u"
-    },
-    {
-      "name": "📺运输车🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/tv.json"
-    },
-    {
-      "name": "📺江苏联通🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/江苏联通.txt"
-    },
-    {
-      "name": "📺江苏移动🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/江苏移动.txt"
+      "url": "http://4gtv.cnlive.club/4gtv.m3u"
     },
     {
       "name": "📺裤佬TV🐯",
@@ -806,12 +794,16 @@
       "url": "https://gongdian.top/tv/iptv"
     },
     {
+      "name": "🍿华视TV直播",
+      "url": "https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111/refs/heads/main/华视box华视大全swtv"
+    },   
+    {
       "name": "📺易发TV🐯",
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
     },
     {
       "name": "📺涛涛TV🐯",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/loggg.png"
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"
     },
     {
       "name": "📺咪咕TV🐯",

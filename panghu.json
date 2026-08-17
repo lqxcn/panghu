@@ -504,7 +504,7 @@
       "name": "🎭聚合🐯戏曲",
       "type": 3,
       "api": "https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js",
-      "ext": "https://iduo.us.ci/gt/leevi0709/one/main/js/戏曲大全.js"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/js/戏曲大全.js"
     },
     {
       "key": "哔哩哔哩戏曲",
@@ -528,7 +528,7 @@
       "name": "🔎聚合🐯采集",
       "type": 3,
       "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
-      "ext": "./js/采集之王.js?type=url&params=https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/jiaozi/main/json/采集静态.json"
+      "ext": "./js/采集之王.js?type=url&params=https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/json/采集静态.json"
     },
     {
       "key": "少儿教育",

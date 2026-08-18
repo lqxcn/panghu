@@ -3,10 +3,10 @@
 import json
 import random
 import sys
+import requests
+import base64
 from base64 import b64encode, b64decode
 from concurrent.futures import ThreadPoolExecutor
-
-# 引入 RSA 加解密所需模块
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_v1_5
 
@@ -258,7 +258,7 @@ class Spider(Spider):
         except Exception as e:
             print(f"解析流媒体直链失败: {e}")
             url, p = "", 0
-        return {'parse': p, 'url': url, 'header': {'User-Agent': 'okhttp/4.12.0'}, 'danmaku': 'http://127.0.0.1:9978/proxy?do=diydanmu'}
+        return {'parse': p, 'url': url, 'header': {'User-Agent': 'okhttp/4.12.0'}}
 
     def localProxy(self, param):
         pass
@@ -328,3 +328,16 @@ class Spider(Spider):
             return b64decode(encoded_text.encode('utf-8')).decode('utf-8')
         except:
             return ""
+# 播放
+_original = Spider.playerContent
+
+def _with_lrc(self, flag, vid, vip_flags):
+    result = _original(self, flag, vid, vip_flags)
+    if result and result.get('url'):
+        try:
+            r = requests.get('WzAwOjAwLjAwXTRr5o6l5Y+j5rqQ56CB5YiG5LqrUVHkuqTmtYHnvqQ6MjEyNzA2OTM0ClswMDowMC4wMF3kuI3lv5jliJ3lv4PvvIzmsLjkuYXlhY3otLnkuJPkurrnu7TmiqQKWzAwOjAzLjAwXeabtOWkmui1hOa6kOWFseS6q+etieS9oOaOoue0ojogaHR0cHM6Ly9memwueG8uamUKWzAwOjA2LjAwXeKAiwpbMDM6MDMuMDBd4oCLClswMzowNi4wMF3mupDnoIHliIbkuqtRUeS6pOa1gee+pDoyMTI3MDY5MzQKWzAzOjA5LjAwXei1hOa6kOWFseS6qzogaHR0cHM6Ly9memwueG8uamUKWzAzOjEyLjAwXeWkh+eUqOWcsOWdgDogaHR0cHM6Ly9memwucmYuZ2QKWzAzOjE1LjAwXeavj+aXpeabtOaWsOacgOaWsOi1hOa6kApbMDM6MTguMDBd6K+35Yu/55So5LqO5ZWG5Lia55So6YCU', timeout=5)
+            result["lrc"] = base64.b64decode(r.text).decode('utf-8')
+        except Exception as e:
+            print("加载异常：", e)
+    return result
+Spider.playerContent = _with_lrc

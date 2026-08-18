@@ -39,9 +39,33 @@ var LIVS_SOURCES = [
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
   },  
   {
-    "name": "📺台湾TV直播",
+    "name": "📺台湾TV🐯",
     "url": "http://4gtv.cnlive.club/4gtv.m3u"
-  }
+  },
+  {
+    "name": "🎁哔哩🐯直播",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/bilibili_live.m3u"
+  },
+  {
+    "name": "🎁抖音🐯直播",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/douyin_live.m3u"
+  },
+  {
+    "name": "🎁斗鱼🐯直播",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/douyu_live.m3u"
+  },
+  {
+    "name": "🎁虎牙🐯直播",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/huya_live.m3u"
+  },
+  {
+    "name": "🎁快手🐯直播",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/kuaishou_live.m3u"
+  },
+  {
+    "name": "🎁YY🐯直播",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/yy_live.m3u"
+  },
 ];
 
 function init(inputData) {

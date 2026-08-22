@@ -39,8 +39,8 @@ var LIVS_SOURCES = [
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
   },  
   {
-    "name": "📺台湾TV🐯",
-    "url": "http://4gtv.cnlive.club/4gtv.m3u"
+    "name": "📺4GTV🐯",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/4gtv.m3u"
   },
   {
     "name": "🎁哔哩🐯直播",

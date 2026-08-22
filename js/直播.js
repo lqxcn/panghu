@@ -11,23 +11,27 @@ var processedHosts = new Set();
 
 var LIVS_SOURCES = [
   {
-    "name": "自用",
+    "name": "📺自用🐯",
     "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
+  }, 
+  {
+    "name": "📺4GTV🐯",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/4gtv.m3u"
   },
   {
-    "name": "📺潇雨TV直播",
+    "name": "📺潇雨TV🐯",
     "url": "http://45.192.97.170:5211/165037"
   },
   {
-    "name": "📺日后TV直播",
+    "name": "📺日后TV🐯",
     "url": "http://rihou.cc:555/gggg.nzk"
   },
   {
-    "name": "📺涛涛TV直播",
+    "name": "📺涛涛TV🐯",
     "url": "https://445569.pages.dev/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"
   },
   {
-    "name": "📺华视TV直播",
+    "name": "📺华视TV🐯",
     "url": "https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111/refs/heads/main/华视box华视大全swtv"
   },
   {
@@ -37,33 +41,29 @@ var LIVS_SOURCES = [
   {
     "name": "📺咪咕TV🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
-  },  
+  }, 
   {
-    "name": "📺4GTV🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/4gtv.m3u"
-  },
-  {
-    "name": "🎁哔哩🐯直播",
+    "name": "🎁哔哩直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/bilibili_live.m3u"
   },
   {
-    "name": "🎁抖音🐯直播",
+    "name": "🎁抖音直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/douyin_live.m3u"
   },
   {
-    "name": "🎁斗鱼🐯直播",
+    "name": "🎁斗鱼直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/douyu_live.m3u"
   },
   {
-    "name": "🎁虎牙🐯直播",
+    "name": "🎁虎牙直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/huya_live.m3u"
   },
   {
-    "name": "🎁快手🐯直播",
+    "name": "🎁快手直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/kuaishou_live.m3u"
   },
   {
-    "name": "🎁YY🐯直播",
+    "name": "🎁YY直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/yy_live.m3u"
   },
 ];

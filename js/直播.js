@@ -16,7 +16,7 @@ var LIVS_SOURCES = [
   }, 
   {
     "name": "📺4GTV🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/4gtv.m3u"
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/4gtv.txt"
   },
   {
     "name": "📺潇雨TV🐯",

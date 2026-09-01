@@ -769,11 +769,11 @@
   "lives": [
     {
       "name": "📺自用🐯",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/自用.txt"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
     },
     {
       "name": "📺4GTV🐯",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/4gtv.m3u"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/4GTV.m3u"
     },
     {
       "name": "📺裤佬TV🐯",

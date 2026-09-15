@@ -770,12 +770,12 @@
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
     },
     {
-      "name": "📺4GTV🐯",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/4gtv.txt"
+      "name": "📺咪咕TV🐯",
+      "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0IABYBAAcWS1FBDAIDAgw"
     },
     {
       "name": "📺裤佬TV🐯",
-      "url": "https://live.445569.xyz/live.m3u"
+      "url": "https://IPTV.445569.xyz/live.m3u"
     },
     {
       "name": "📺日后TV🐯",
@@ -784,10 +784,6 @@
     {
       "name": "📺潇雨TV🐯",
       "url": "http://45.192.97.170:5211/165037"
-    },
-    {
-      "name": "📺宫殿TV🐯",
-      "url": "https://gongdian.top/tv/iptv"
     },
     {
       "name": "📺华视TV🐯",
@@ -800,10 +796,6 @@
     {
       "name": "📺涛涛TV🐯",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/taoBox2620/taoBox2620/main/logo1.png"
-    },
-    {
-      "name": "📺咪咕TV🐯",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt"
     }
   ],
   "parses": [

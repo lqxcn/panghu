@@ -235,15 +235,13 @@
       "filterable": 1
     },
     {
-      "name": "🎦AI🐯短剧",
-      "key": "Ai短剧",
+      "name": "🎦红果🐯短剧",
+      "key": "红果短剧",
       "type": 3,
-      "jar": "https://nos.netease.com/ysf/0589efa17c35af5babb01f6fcfc83abc.png;md5;065ee07e71679d9c273e18fab401f0c0",
-      "api": "csp_HgdhAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://nos.netease.com/ysf/dac0101040005285380ee886e6e6c660.aowu"
+      "api": "./py/红果短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
     },
     {
       "key": "哔哩合集",

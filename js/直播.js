@@ -1,7 +1,7 @@
 var globalHeaders = [];
 var classes = [];
 var categories = {};
-var picUrl = 'https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/img/薄荷咖啡.jpg';
+var picUrl = 'https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/img/薄荷咖啡.jpg';
 var webPaths = {};
 var sourceHeaders = {};
 var sourceConfigs = {};
@@ -11,12 +11,20 @@ var processedHosts = new Set();
 
 var LIVS_SOURCES = [
   {
-    "name": "📺自用🐯",
+    "name": "📺自用TV🐯",
     "url": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
-  }, 
+  },  
+  {
+    "name": "📺咪咕🐯",
+    "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0IABYBAAcWS1FBDAIDAgw"
+  },
+  {
+    "name": "📺裤佬TV🐯",
+    "url": "https://gh-proxy.org/https://raw.githubusercontent.com/pyapk/1/refs/heads/main/zby"
+  },
   {
     "name": "📺潇雨TV🐯",
-    "url": "http://45.192.97.170:5211/165037"
+    "url": "https://0701.tv1288.xyz/m3u"
   },
   {
     "name": "📺日后TV🐯",
@@ -32,17 +40,12 @@ var LIVS_SOURCES = [
   },
   {
     "name": "📺易发TV🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+    "url": "https://445569.pages.dev/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
   },
-  {
-    "name": "📺咪咕TV🐯",
-    "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0IABYBAAcWS1FBDAIDAgw
-"
-  }, 
   {
     "name": "🎁体育赛事🐯",
     "url": "https://jsnzkpg.de5.net/all.m3u"
-  },  
+  }, 
   {
     "name": "🎁哔哩直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/bilibili_live.m3u"
@@ -67,7 +70,6 @@ var LIVS_SOURCES = [
     "name": "🎁YY直播🐯",
     "url": "https://yy.445569.xyz/live.m3u"
   }
-
 ];
 
 function init(inputData) {

@@ -15,10 +15,6 @@ var LIVS_SOURCES = [
     "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
   }, 
   {
-    "name": "📺4GTV🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/main/live/4gtv.txt"
-  },
-  {
     "name": "📺潇雨TV🐯",
     "url": "http://45.192.97.170:5211/165037"
   },
@@ -40,32 +36,38 @@ var LIVS_SOURCES = [
   },
   {
     "name": "📺咪咕TV🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+    "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0IABYBAAcWS1FBDAIDAgw
+"
   }, 
+  {
+    "name": "🎁体育赛事🐯",
+    "url": "https://jsnzkpg.de5.net/all.m3u"
+  },  
   {
     "name": "🎁哔哩直播🐯",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/bilibili_live.m3u"
   },
   {
     "name": "🎁抖音直播🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/douyin_live.m3u"
+    "url": "https://douyin.445569.xyz/live.m3u"
   },
   {
     "name": "🎁斗鱼直播🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/douyu_live.m3u"
+    "url": "https://douyu.445569.xyz/live.m3u"
   },
   {
     "name": "🎁虎牙直播🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/huya_live.m3u"
+    "url": "https://huya.445569.xyz/live.m3u"
   },
   {
     "name": "🎁快手直播🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/kuaishou_live.m3u"
+    "url": "https://kuaishou.445569.xyz/list.m3u"
   },
   {
     "name": "🎁YY直播🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/yy_live.m3u"
-  },
+    "url": "https://yy.445569.xyz/live.m3u"
+  }
+
 ];
 
 function init(inputData) {

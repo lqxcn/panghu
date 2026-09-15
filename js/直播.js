@@ -12,7 +12,7 @@ var processedHosts = new Set();
 var LIVS_SOURCES = [
   {
     "name": "📺自用🐯",
-    "url": "https://gh-proxy.org/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
   }, 
   {
     "name": "📺潇雨TV🐯",

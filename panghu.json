@@ -285,7 +285,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "{"host":"https://ktv.catvod.site","key":"ktv_jIO7myCOGTEYCLByS9ABrBXGOmxK6D8_"}"
+      "ext": "{\"host\":\"https://ktv.catvod.site\",\"key\":\"ktv_jIO7myCOGTEYCLByS9ABrBXGOmxK6D8_\"}"
     },
     {
       "key": "哔哩音乐",

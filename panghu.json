@@ -489,12 +489,12 @@
   ],
   "lives": [
     {
-      "name": "📺自用🐯",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
-    },
-    {
       "name": "📺咪咕TV🐯",
       "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0IABYBAAcWS1FBDAIDAgw"
+    },
+    {
+      "name": "📺自用🐯",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
     },
     {
       "name": "📺裤佬TV🐯",

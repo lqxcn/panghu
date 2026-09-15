@@ -101,6 +101,15 @@
       ]
     },
     {
+      "key": "咕噜APP",
+      "name": "🎞咕噜🐯APP",
+      "type": 3,
+      "api": "csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "农民影视",
       "name": "🎞农民🐯影视",
       "type": 3,
@@ -206,14 +215,14 @@
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
         "n": "哔哩相声",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
-        "ratio": 1.597
+        "ratio": 1.618
       }
     },
     {
@@ -223,14 +232,14 @@
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
         "n": "哔哩小品",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
-        "ratio": 1.597
+        "ratio": 1.618
       }
     },
     {
@@ -252,14 +261,14 @@
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
         "n": "哔哩音乐",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
-        "ratio": 1.597
+        "ratio": 1.618
       }
     },
     {
@@ -336,14 +345,14 @@
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
         "n": "哔哩听书",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
-        "ratio": 1.597
+        "ratio": 1.618
       }
     },
     {
@@ -416,6 +425,23 @@
       "type": 3,
       "api": "https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/戏曲大全.js"
+    },
+    {
+      "key": "哔哩哔哩戏曲",
+      "name": "🎭哔哩🐯戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "n": "哔哩戏曲",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
     },
     {
       "key": "聚合采集",

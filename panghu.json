@@ -58,8 +58,6 @@
       "key": "电视直播",
       "name": "📺电视🐯直播",
       "type": 3,
-      "searchable": 0,
-      "changeable": 0,
       "api": "./js/直播.js"
     },
     {

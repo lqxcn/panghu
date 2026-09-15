@@ -508,23 +508,6 @@
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/戏曲大全.js"
     },
     {
-      "key": "哔哩哔哩戏曲",
-      "name": "🎭哔哩🐯戏曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": {
-        "n": "哔哩戏曲",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
       "key": "聚合采集",
       "name": "🔎聚合🐯采集",
       "type": 3,

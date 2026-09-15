@@ -288,7 +288,7 @@
       "key": "爱听音乐",
       "name": "🎵爱听🐯音乐",
       "type": 3,
-      "api": "https://hk.gh-proxy.org/https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/py/爱听音乐.py"
+      "api": ./py/爱听音乐.py"
     },
     {
       "key": "酷狗音乐",

@@ -395,14 +395,8 @@
       "key": "评书随身听",
       "name": "📚评书🐯听书",
       "type": 3,
-      "api": "csp_Psmp3",
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/aidaox.jar",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      },
-      "filterable": 1
+      "api": "https://ghfast.top/raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+      "ext": "https://ghfast.top/raw.githubusercontent.com/IY-CPU/IY/main/lib/%E9%9A%8F%E8%BA%AB%E8%AF%84%E4%B9%A6.png"
     },
     {
       "key": "悦听吧",

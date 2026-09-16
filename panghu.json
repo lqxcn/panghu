@@ -425,6 +425,18 @@
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/戏曲大全.js"
     },
     {
+      "key": "戏曲多多",
+      "name": "戏曲 • 多多",
+      "type": 3,
+      "api": "csp_AppLY",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+          "type": "list"
+       }
+    },
+    {
       "key": "哔哩哔哩戏曲",
       "name": "🎭哔哩🐯戏曲",
       "type": 3,

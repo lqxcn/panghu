@@ -16,7 +16,7 @@ var LIVS_SOURCES = [
   },  
   {
     "name": "📺咪咕🐯",
-    "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0IABYBAAcWS1FBDAIDAgw"
+    "url": "https://eastscreen.tv/iptvlist.php?token=N1NDBB0AABYBAAMWS1tCDAYJBAgD"
   },
   {
     "name": "📺裤佬TV🐯",

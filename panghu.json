@@ -192,16 +192,16 @@
       "key": "聚合短剧",
       "name": "🎦聚合🐯短剧",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/js/%E8%81%9A%E5%90%88%E7%9F%AD%E5%89%A7.js",
+      "api": "./js/聚合短剧.js",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1
     },
     {
-      "name": "🎦红果🐯短剧",
-      "key": "红果短剧",
+      "name": "🎦红果🐯影视",
+      "key": "红果剧场",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/py/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.py",
+      "api": "./py/红果剧场.py",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1

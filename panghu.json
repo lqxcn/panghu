@@ -1,7 +1,7 @@
 {
   "spider": "./spider.jar",
   "logo": "./img/panghu.jpg",  
-  "wallpaper": "proxy?do=wallpaper",
+  "wallpaper": "https://动态壁纸.饭.eu.org",
   "sites": [
     {
       "key": "豆瓣",

@@ -51,7 +51,7 @@
     },
     {
       "key": "央视PY",
-      "name": "📺央视🐯PY",
+      "name": "📺央视🐯大全",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/py/%E5%A4%AE%E8%A7%86%E5%BD%B1%E8%A7%86.py",
       "searchable": 1,
@@ -163,7 +163,7 @@
     },
     {
       "key": "番社动漫",
-      "name": "🧞‍♂番社🐯动漫",
+      "name": "🧞‍♂哆啦新番🐯动漫",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {

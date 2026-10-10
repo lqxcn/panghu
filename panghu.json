@@ -356,21 +356,6 @@
       }
     },
     {
-      "key": "六月有声",
-      "name": "📚六月🐯听书",
-      "type": 3,
-      "api": "csp_TingBook",
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/aidaox.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "filterable": 1,
-      "ext": "https://app.365ting.com",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "博看听书",
       "name": "📚博看🐯听书",
       "type": 3,

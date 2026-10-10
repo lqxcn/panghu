@@ -41,34 +41,6 @@ var LIVS_SOURCES = [
   {
     "name": "📺易发TV🐯",
     "url": "https://445569.pages.dev/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
-  },
-  {
-    "name": "🎁体育赛事🐯",
-    "url": "https://jsnzkpg.de5.net/all.m3u"
-  }, 
-  {
-    "name": "🎁哔哩直播🐯",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/pan8664716/MultiLive/main/output/bilibili_live.m3u"
-  },
-  {
-    "name": "🎁抖音直播🐯",
-    "url": "https://douyin.445569.xyz/live.m3u"
-  },
-  {
-    "name": "🎁斗鱼直播🐯",
-    "url": "https://douyu.445569.xyz/live.m3u"
-  },
-  {
-    "name": "🎁虎牙直播🐯",
-    "url": "https://huya.445569.xyz/live.m3u"
-  },
-  {
-    "name": "🎁快手直播🐯",
-    "url": "https://kuaishou.445569.xyz/list.m3u"
-  },
-  {
-    "name": "🎁YY直播🐯",
-    "url": "https://yy.445569.xyz/live.m3u"
   }
 ];
 

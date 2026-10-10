@@ -1,7 +1,7 @@
 {
   "spider": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/spider.jar",
   "logo": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/img/panghu.jpg",  
-  "wallpaper": "    "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",",
+  "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",",
   "sites": [
     {
       "key": "豆瓣",

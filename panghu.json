@@ -12,7 +12,7 @@
     },
     {
       "key": "配置中心",
-      "name": "⚙配置|中心",
+      "name": "⚙综合|配置",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -22,12 +22,6 @@
         "type": "rect",
         "ratio": 1.618
       }
-    },
-    {
-      "key": "本地",
-      "name": "📁本地|视频",
-      "type": 3,
-      "api": "csp_LocalFile"
     },
     {
       "name": "⚙弹幕|配置",
@@ -49,6 +43,12 @@
         "filter": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/douban.json"
       }
     },
+    {
+      "key": "本地",
+      "name": "📁本地|视频",
+      "type": 3,
+      "api": "csp_LocalFile"
+    },    
     {
       "key": "央视PY",
       "name": "📺央视|大全",

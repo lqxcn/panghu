@@ -5,14 +5,14 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🎞豆瓣🐯首页",
+      "name": "🎞豆瓣|首页",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "配置中心",
-      "name": "⚙配置🐯中心",
+      "name": "⚙配置|中心",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -25,12 +25,12 @@
     },
     {
       "key": "本地",
-      "name": "📁本地🐯视频",
+      "name": "📁本地|视频",
       "type": 3,
       "api": "csp_LocalFile"
     },
     {
-      "name": "⚙弹幕🐯配置",
+      "name": "⚙弹幕|配置",
       "key": "弹幕豆瓣",
       "type": 3,
       "api": "csp_SecureDanmu",
@@ -51,7 +51,7 @@
     },
     {
       "key": "央视PY",
-      "name": "📺央视🐯大全",
+      "name": "📺央视|大全",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/py/%E5%A4%AE%E8%A7%86%E5%BD%B1%E8%A7%86.py",
       "searchable": 1,
@@ -62,19 +62,19 @@
     },
     {
       "key": "电视直播",
-      "name": "📺电视🐯直播",
+      "name": "📺电视|直播",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/js/%E7%9B%B4%E6%92%AD.js"
     },
     {
       "key": "本地",
-      "name": "🎞本地🐯视频",
+      "name": "🎞本地|视频",
       "type": 3,
       "api": "csp_LocalFile"
     },
     {
       "key": "极影4K",
-      "name": "🎞极影🐯4K",
+      "name": "🎞极影|4K",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/js/4K%E5%85%8D%E6%89%AB%E7%A0%81.js",
       "searchable": 1,
@@ -84,7 +84,7 @@
     },
     {
       "key": "指南",
-      "name": "🎞指南🐯4K",
+      "name": "🎞指南|4K",
       "type": 3,
       "api": "csp_4KZhinan",
       "searchable": 1,
@@ -94,7 +94,7 @@
     },
     {
       "key": "奈飞4K",
-      "name": "🎞奈飞🐯4K",
+      "name": "🎞奈飞|4K",
       "type": 1,
       "api": "https://api.wsyzy.net/api.php/provide/vod",
       "searchable": 1,
@@ -108,7 +108,7 @@
     },
     {
       "key": "咕噜APP",
-      "name": "🎞咕噜🐯APP",
+      "name": "🎞咕噜|APP",
       "type": 3,
       "api": "csp_Gulu",
       "searchable": 1,
@@ -117,7 +117,7 @@
     },
     {
       "key": "农民影视",
-      "name": "🎞农民🐯影视",
+      "name": "🎞农民|影视",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -126,13 +126,13 @@
     },
     {
       "key": "6080影视",
-      "name": "🎞6080🐯影视",
+      "name": "🎞6080|影视",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/py/6080%E5%BD%B1%E8%A7%86.py"
     },
     {
       "key": "热播影视",
-      "name": "🎞热播🐯APP",
+      "name": "🎞热播|APP",
       "type": 3,
       "api": "csp_AppRJ",
       "searchable": 1,
@@ -144,26 +144,26 @@
     },
     {
       "key": "瓜子影视",
-      "name": "🎞瓜子🐯影视",
+      "name": "🎞瓜子|影视",
       "type": 3,
       "api": "csp_Gz360"
     },
     {
       "key": "独播影视",
-      "name": "🎞独播🐯影视",
+      "name": "🎞独播|影视",
       "type": 3,
       "api": "csp_Duboku"
     },
     {
       "key": "金牌影视",
-      "name": "🎞金牌🐯影视",
+      "name": "🎞金牌|影视",
       "type": 3,
       "api": "csp_Jpys",
       "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
     },
     {
       "key": "番社动漫",
-      "name": "🧞‍♂哆啦新番🐯动漫",
+      "name": "🧞‍♂哆啦新番|动漫",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -190,7 +190,7 @@
     },
     {
       "key": "聚合短剧",
-      "name": "🎦聚合🐯短剧",
+      "name": "🎦聚合|短剧",
       "type": 3,
       "api": "./js/聚合短剧.js",
       "searchable": 1,
@@ -198,7 +198,7 @@
       "filterable": 1
     },
     {
-      "name": "🎦红果🐯影视",
+      "name": "🎦红果|影视",
       "key": "红果剧场",
       "type": 3,
       "api": "./py/红果剧场.py",
@@ -208,7 +208,7 @@
     },
     {
       "key": "哔哩合集",
-      "name": "🎞哔哩🐯合集",
+      "name": "🎞哔哩|合集",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -226,7 +226,7 @@
     },
     {
       "key": "哔哩视频",
-      "name": "🎞哔哩🐯视频",
+      "name": "🎞哔哩|视频",
       "type": 3,
       "api": "csp_BiliYS",
       "searchable": 1,
@@ -243,7 +243,7 @@
     },
     {
       "key": "哔哩哔哩相声",
-      "name": "😄哔哩🐯相声",
+      "name": "😄哔哩|相声",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -260,7 +260,7 @@
     },
     {
       "key": "哔哩哔哩小品",
-      "name": "😄哔哩🐯小品",
+      "name": "😄哔哩|小品",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -277,7 +277,7 @@
     },
     {
       "key": "哔哩音乐",
-      "name": "🎵哔哩🐯音乐",
+      "name": "🎵哔哩|音乐",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -294,7 +294,7 @@
     },
     {
       "key": "音乐台",
-      "name": "🎵爱上🐯音乐",
+      "name": "🎵爱上|音乐",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -307,13 +307,13 @@
     },
     {
       "key": "爱听音乐",
-      "name": "🎵爱听🐯音乐",
+      "name": "🎵爱听|音乐",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/py/%E7%88%B1%E5%90%AC%E9%9F%B3%E4%B9%90.py"
     },
     {
       "key": "呦呦DJ",
-      "name": "🎵呦呦🐯DJ",
+      "name": "🎵呦呦|DJ",
       "type": 3,
       "api": "csp_Djuu",
       "style": {
@@ -322,7 +322,7 @@
     },
     {
       "key": "蜻蜓FM",
-      "name": "📻蜻蜓🐯FM",
+      "name": "📻蜻蜓|FM",
       "type": 3,
       "api": "csp_QingtingFM",
       "style": {
@@ -331,7 +331,7 @@
     },
     {
       "key": "哔哩哔哩听书",
-      "name": "📚哔哩🐯听书",
+      "name": "📚哔哩|听书",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -348,7 +348,7 @@
     },
     {
       "key": "世界听书",
-      "name": "📚世界🐯听书",
+      "name": "📚世界|听书",
       "type": 3,
       "api": "csp_TingShijie",
       "style": {
@@ -357,7 +357,7 @@
     },
     {
       "key": "博看听书",
-      "name": "📚博看🐯听书",
+      "name": "📚博看|听书",
       "type": 3,
       "api": "csp_Bookan",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/aidaox.jar",
@@ -371,14 +371,14 @@
     },
     {
       "key": "评书随身听",
-      "name": "📚评书🐯听书",
+      "name": "📚评书|听书",
       "type": 3,
       "api": "https://ghfast.top/raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
       "ext": "https://ghfast.top/raw.githubusercontent.com/IY-CPU/IY/main/lib/随身评书.png"
     },
     {
       "key": "悦听吧",
-      "name": "📚悦听🐯听书",
+      "name": "📚悦听|听书",
       "type": 3,
       "api": "csp_YueTingBa",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/aidaox.jar",
@@ -391,14 +391,14 @@
     },
     {
       "key": "戏曲大全",
-      "name": "🎭戏曲🐯聚合",
+      "name": "🎭戏曲|聚合",
       "type": 3,
       "api": "https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/lib/戏曲大全.js"
     },
     {
       "key": "戏曲多多",
-      "name": "🎭戏曲🐯多多",
+      "name": "🎭戏曲|多多",
       "type": 3,
       "api": "csp_AppLY",
       "searchable": 0,
@@ -410,7 +410,7 @@
     },
     {
       "key": "哔哩哔哩戏曲",
-      "name": "🎭哔哩🐯戏曲",
+      "name": "🎭哔哩|戏曲",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -427,14 +427,14 @@
     },
     {
       "key": "聚合采集",
-      "name": "🔎聚合🐯采集",
+      "name": "🔎聚合|采集",
       "type": 3,
       "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/panghu/main/js/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B.js?type=url&params=https://gh-proxy.com/https://raw.githubusercontent.com/lqxcn/panghu/main/json/%E9%87%87%E9%9B%86%E9%9D%99%E6%80%81.json"
     },
     {
       "key": "少儿教育",
-      "name": "👩‍🏫少儿🐯教育",
+      "name": "👩‍🏫少儿|教育",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -451,7 +451,7 @@
     },
     {
       "key": "小学课堂",
-      "name": "👩‍🏫小学🐯课堂",
+      "name": "👩‍🏫小学|课堂",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -468,7 +468,7 @@
     },
     {
       "key": "初中课堂",
-      "name": "👩‍🏫初中🐯课堂",
+      "name": "👩‍🏫初中|课堂",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -485,7 +485,7 @@
     },
     {
       "key": "高中课堂",
-      "name": "👩‍🏫高中🐯课堂",
+      "name": "👩‍🏫高中|课堂",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -502,7 +502,7 @@
     },
     {
       "key": "急救教学",
-      "name": "🏥急救🐯教学",
+      "name": "🏥急救|教学",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -516,7 +516,7 @@
     },
     {
       "key": "养生堂",
-      "name": "🐼养生🐯知识",
+      "name": "🐼养生|知识",
       "type": 3,
       "api": "csp_YST",
       "searchable": 0,
@@ -529,7 +529,7 @@
     },
     {
       "key": "push_agent",
-      "name": "📱手机🐯推送",
+      "name": "📱手机|推送",
       "type": 3,
       "api": "csp_Push",
       "searchable": 0,
@@ -539,35 +539,31 @@
   ],
   "lives": [
     {
-      "name": "📺咪咕TV🐯",
+      "name": "📺咪咕|TV",
       "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0CBRYCBgUWS1dIBwECAA0"
     },
     {
-      "name": "📺自用🐯",
+      "name": "📺自用|TV",
       "url": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
     },
     {
-      "name": "📺裤佬TV🐯",
-      "url": "https://IPTV.445569.xyz/live.m3u"
+      "name": "📺裤佬|TV",
+      "url": "https://iptv.445569.xyz/live.m3u"
     },
     {
-      "name": "📺日后TV🐯",
-      "url": "http://rihou.cc:555/gggg.nzk"
-    },
-    {
-      "name": "📺潇雨TV🐯",
+      "name": "📺潇雨|TV",
       "url": "http://45.192.97.170:5211/165037"
     },
     {
-      "name": "📺华视TV🐯",
+      "name": "📺华视|TV",
       "url": "https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111main/华视box华视大全swtv"
     },
     {
-      "name": "📺易发TV🐯",
+      "name": "📺易发|TV",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fafa002/yf2025/main/yiyifafa.txt"
     },
     {
-      "name": "📺涛涛TV🐯",
+      "name": "📺涛涛|TV",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/taoBox2620/taoBox2620/main/logo1.png"
     }
   ],

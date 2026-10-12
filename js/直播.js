@@ -11,35 +11,31 @@ var processedHosts = new Set();
 
 var LIVS_SOURCES = [
   {
-    "name": "📺自用TV🐯",
+    "name": "📺自用|TV",
     "url": "https://ghfast.top/https://raw.githubusercontent.com/lqxcn/IPTV/refs/heads/main/live/自用.txt"
   },  
   {
-    "name": "📺咪咕🐯",
+    "name": "📺咪咕|TV",
     "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0CBRYCBgUWS1dIBwECAA0"
   },
   {
-    "name": "📺裤佬TV🐯",
+    "name": "📺潇雨|TV",
+    "url": "https://123.tv1288.xyz/sm2.txt"
+  },
+  {
+    "name": "📺裤佬|TV",
     "url": "https://gh-proxy.org/https://raw.githubusercontent.com/pyapk/1/refs/heads/main/zby"
   },
   {
-    "name": "📺潇雨TV🐯",
-    "url": "https://0701.tv1288.xyz/m3u"
-  },
-  {
-    "name": "📺日后TV🐯",
-    "url": "http://rihou.cc:555/gggg.nzk"
-  },
-  {
-    "name": "📺涛涛TV🐯",
+    "name": "📺涛涛|TV",
     "url": "https://445569.pages.dev/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"
   },
   {
-    "name": "📺华视TV🐯",
+    "name": "📺华视|TV",
     "url": "https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111/refs/heads/main/华视box华视大全swtv"
   },
   {
-    "name": "📺易发TV🐯",
+    "name": "📺易发|TV",
     "url": "https://445569.pages.dev/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
   }
 ];

@@ -120,15 +120,6 @@
       }
     },
     {
-      "key": "1905",
-      "name": "🎞1905|影视",
-      "type": 3,
-      "api": "csp_Web1905",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
       "key": "云播影视",
       "name": "🎞云播|影视",
       "type": 3,
@@ -198,7 +189,7 @@
     },
     {
       "key": "红果短剧",
-      "name": "红果 • 短剧",
+      "name": "🎦红果|短剧",
       "type": 3,
       "api": "./py/红果短剧.py",
       "genre": "shortdrama"
@@ -297,7 +288,7 @@
         "type": "rect",
         "ratio": 1.618
       }
-    },
+    },    
     {
       "key": "音乐台",
       "name": "🎼爱上|音乐",
@@ -322,15 +313,6 @@
       "name": "🎼呦呦|DJ",
       "type": 3,
       "api": "csp_Djuu",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "轮回DJ",
-      "name": "🎼轮回|DJ",
-      "type": 3,
-      "api": "csp_Djlh",
       "style": {
         "type": "list"
       }
@@ -483,7 +465,7 @@
     },
     {
       "key": "急救教学",
-      "name": "🏥急救|教学",
+      "name": "🏥急救|教育",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -497,7 +479,7 @@
     },
     {
       "key": "养生堂",
-      "name": "🐼养生|知识",
+      "name": "🐼养生|教育",
       "type": 3,
       "api": "csp_YST",
       "searchable": 0,

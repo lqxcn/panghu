@@ -297,7 +297,7 @@
         "type": "rect",
         "ratio": 1.618
       }
-    },
+    },    
     {
       "key": "音乐台",
       "name": "🎼爱上|音乐",
@@ -483,7 +483,7 @@
     },
     {
       "key": "急救教学",
-      "name": "🏥急救|教学",
+      "name": "🏥急救|教育",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -497,7 +497,7 @@
     },
     {
       "key": "养生堂",
-      "name": "🐼养生|知识",
+      "name": "🐼养生|教育",
       "type": 3,
       "api": "csp_YST",
       "searchable": 0,

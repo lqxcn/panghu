@@ -56,6 +56,12 @@
       "playerType": 2
     },
     {
+      "key": "gdtv",
+      "name": "🎞广东|直播",
+      "type": 3,
+      "api": "./py/gdtv.py"
+    },    
+    {
       "key": "电视直播",
       "name": "📺电视|直播",
       "type": 3,
@@ -101,6 +107,24 @@
       "filterable": 0,
       "api": "./py/农民影视.py"
     },
+    {
+      "key": "剧迷",
+      "name": "🎞剧迷|影视",
+      "type": 3,
+      "api": "./py/剧迷.py"
+    }, 
+    {
+      "key": "山有木兮",
+      "name": "🎞木兮|影视",
+      "type": 3,
+      "api": "./py/山有木兮.py"
+    },
+    {
+      "key": "影探4K",
+      "name": "🎞影探|影视",
+      "type": 3,
+      "api": "./py/影探4Kpy"
+    },               
     {
       "key": "6080影视",
       "name": "🎞6080|影视",
@@ -161,6 +185,12 @@
       "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
     },
     {
+      "key": "橘汁视频",
+      "name": "🎞橘汁|影视",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/e1aeef83.py"
+        },    
+    {
       "key": "番社动漫",
       "name": "🙊哆啦A梦|动漫",
       "type": 3,
@@ -187,6 +217,12 @@
         "type": "list"
       }
     },
+    {
+      "key": "动漫电影",
+      "name": "🎞采集|动漫",
+      "type": 3,
+      "api": "./py/动漫电影.py"
+    },    
     {
       "key": "红果短剧",
       "name": "🎦红果|短剧",
@@ -288,7 +324,13 @@
         "type": "rect",
         "ratio": 1.618
       }
-    },    
+    },
+    {
+      "key": "kuwo",
+      "name": "🎼酷我|音乐",
+      "type": 3,
+      "api": "https://jsnz.pages.dev/f/eded33cf.py"
+    },        
     {
       "key": "音乐台",
       "name": "🎼爱上|音乐",

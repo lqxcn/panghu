@@ -191,6 +191,12 @@
       "api": "https://jsnz.pages.dev/f/e1aeef83.py"
         },    
     {
+      "key": "多多影视",
+      "name": "🎞多多|影视",
+      "type": 3,
+      "api": "./py/多多影视.py"
+    },            
+    {
       "key": "番社动漫",
       "name": "🙊哆啦A梦|动漫",
       "type": 3,

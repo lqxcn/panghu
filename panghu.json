@@ -4,6 +4,12 @@
   "logo": "./img/panghu.gif",
   "sites": [
     {
+      "key":"央视频",
+      "name":"📺央视|直播",
+      "type": 3,
+	  "api": "./py/[央视]频.py"
+	},    
+     {
       "key": "豆瓣",
       "name": "🎞豆瓣|首页",
       "type": 3,
@@ -57,7 +63,7 @@
     },
     {
       "key": "gdtv",
-      "name": "🎞广东|直播",
+      "name": "📺广东|直播",
       "type": 3,
       "api": "./py/gdtv.py"
     },    
@@ -124,6 +130,24 @@
       "name": "🎞影探|影视",
       "type": 3,
       "api": "./py/影探4K.py"
+    },
+    {
+      "key": "剧透社",
+      "name": "🎞剧透|影视",
+      "type": 3,
+      "api": "./py/剧透社.py"
+    },
+    {
+      "key": "电影云集",
+      "name": "🎞云集|影视",
+      "type": 3,
+      "api": "./py/电影云集.py"
+    },                                               
+    {
+      "key": "咕噜咕噜",
+      "name": "🎞咕噜py|影视",
+      "type": 3,
+      "api": "./py/咕噜咕噜.py"
     },               
     {
       "key": "6080影视",
@@ -731,6 +755,10 @@
     }
   ],
   "lives": [
+    {
+      "name": "📺央视|TV",
+      "url": "./央视频.txt"
+    },
     {
       "name": "📺咪咕|TV",
       "url": "https://eastscreen.tv/iptvlist.php?token=N1NCBx0CBRYCBgUWS1dIBwECAA0"

@@ -171,7 +171,7 @@
                   "key": "云播影视", 
                   "name": "🎞云播|影视", 
                   "type": 3, 
-                  "api": "csp_Tvyb"
+                  "api": "./py/TVB云播.py"
             }, 
             {
                   "key": "瓜子影视", 
